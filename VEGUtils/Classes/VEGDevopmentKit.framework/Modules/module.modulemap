@@ -1,0 +1,6 @@
+framework module VEGDevopmentKit {
+  umbrella header "VEGDevopmentKit.h"
+
+  export *
+  module * { export * }
+}
