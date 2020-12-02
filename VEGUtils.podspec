@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VEGUtils'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'VEGUtils a test utils'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/VEGZero/VEGUtilsLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '魏益捷' => 'yijie.wei@clife.cn' }
+  s.author           = { 'iVEG' => 'yijie.wei@clife.cn' }
   s.source           = { :git => 'https://github.com/VEGZero/VEGUtilsLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -39,4 +39,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.platform = :ios
+  s.verdored_frameworks = 'VEGDevopmentKit.framework'
 end
