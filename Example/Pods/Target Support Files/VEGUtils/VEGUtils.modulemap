@@ -1,0 +1,6 @@
+framework module VEGUtils {
+  umbrella header "VEGUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - VEGUtils (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - VEGUtils (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  VEGUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  VEGUtils: 175c5bafaf7d99f731a56dd1eb289c165bd01a55
+
+PODFILE CHECKSUM: d911f190264596ae916c5674913f302d98f9f4a0
+
+COCOAPODS: 1.9.3
