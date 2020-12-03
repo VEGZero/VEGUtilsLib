@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17257ECF50E05DCA748CDDD7 /* VEGUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VEGUtils.podspec; path = ../VEGUtils.podspec; sourceTree = "<group>"; };
-		36F4BF4C09F3952A43D0B3DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		17257ECF50E05DCA748CDDD7 /* VEGUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VEGUtils.podspec; path = ../VEGUtils.podspec; sourceTree = "<group>"; };
+		36F4BF4C09F3952A43D0B3DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3EA5F3609166F894580655FA /* Pods-VEGUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VEGUtils_Tests.release.xcconfig"; path = "Target Support Files/Pods-VEGUtils_Tests/Pods-VEGUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		49711DE672E2118B42790F5E /* Pods_VEGUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VEGUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* VEGUtils_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VEGUtils_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +62,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8C22330A0A1C3577B7C30462 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8C22330A0A1C3577B7C30462 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		99EBD5DEFCB2B449A1DFEF7C /* Pods-VEGUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VEGUtils_Example.release.xcconfig"; path = "Target Support Files/Pods-VEGUtils_Example/Pods-VEGUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9AA46D88316EDEF43FF33D21 /* Pods_VEGUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VEGUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF8E1C96B9B66A15DDC5F5C /* Pods-VEGUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VEGUtils_Example.debug.xcconfig"; path = "Target Support Files/Pods-VEGUtils_Example/Pods-VEGUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				C30D9C5D1E85EDCC51E1469C /* Pods-VEGUtils_Tests.debug.xcconfig */,
 				3EA5F3609166F894580655FA /* Pods-VEGUtils_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -516,6 +516,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VEGUtils/VEGUtils-Prefix.pch";
 				INFOPLIST_FILE = "VEGUtils/VEGUtils-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,6 +533,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VEGUtils/VEGUtils-Prefix.pch";
 				INFOPLIST_FILE = "VEGUtils/VEGUtils-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
