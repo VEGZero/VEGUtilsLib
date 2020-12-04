@@ -11,8 +11,6 @@
 #endif
 
 #import "CPSMacro.h"
-#import "UIButton+Clicked.h"
-#import "CPSMacro.h"
 #import "VEGDevopmentKit.h"
 
 FOUNDATION_EXPORT double VEGUtilsVersionNumber;

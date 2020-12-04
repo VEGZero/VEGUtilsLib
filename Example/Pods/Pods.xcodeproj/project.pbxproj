@@ -9,45 +9,36 @@
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
-		11CCCC19F6A765C5FE155A553AC89C2D /* UIButton+Clicked.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C63DB90D62647B018E27BD32F8ED315 /* UIButton+Clicked.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
 		1BDEC15279986E097C08A0170C213D36 /* Pods-VEGUtils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF27A2D3EBA3FEABA4A5058E44B4BE2 /* Pods-VEGUtils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2280C7CD139322C5CC6CF12A957BEC09 /* CPSMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = DC01E2B5203B7E942325EE36081A445A /* CPSMacro.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		2AD109B68D87ECD3F72792FBDF78166B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		31572CD378B9F2E44DD4C5FC287762B3 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = BD395E0ECBFB2D637E002B4737EE4A84 /* module.modulemap */; };
+		3D9AD88900CF0DC1E700EC34AFFB9B02 /* CPSMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9E3104481E219A21BB48277D14575D /* CPSMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4379D1D1939B33811B3E42D521DCD5D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		5FCF33CCB3F5D06657197247C110D336 /* VEGDevopmentKit in Sources */ = {isa = PBXBuildFile; fileRef = 55EA977DA3CBE4D52F13451F406BCA39 /* VEGDevopmentKit */; };
-		67D78C206C94110B5AA3874C535BE849 /* VEGUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A4A9A636EA78AA385EB0B94C83329C /* VEGUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E6A4CD0A1EE04D0D728E154E5CC4623 /* VEGUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63777945457FE2D9E57B74DE65ED5933 /* VEGUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5089A73B35F551B1E2AEFA294EE2F8D6 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = C4E164DF594E9A3F8FB83CE1D059126C /* module.modulemap */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		7912B82FCAE52CAF9466285925FF20B6 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 4CFBAA4CB0D037C500D87361857FA1BA /* Info.plist */; };
-		7DC04F681816D096043C175CEF27430C /* UIButton+Clicked.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C441889D5BE0A8BBFA6BB88F9BF56A /* UIButton+Clicked.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8648BB93FD96B8B39DCB417E02D7041C /* Pods-VEGUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2560180C09F9B63D315644EBC7C6D87 /* Pods-VEGUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
-		8EE86EC232E9ED206CDFF07046D6B8EB /* CodeDirectory in Sources */ = {isa = PBXBuildFile; fileRef = D6F07F4F5149A1AADE347EB4EF24C8CA /* CodeDirectory */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
-		9DBF4A99176CA515C2F5FD37E32DC6CB /* CodeRequirements in Sources */ = {isa = PBXBuildFile; fileRef = 87648C723FE7BE4AD8A8F950881AF44F /* CodeRequirements */; };
+		9EC4084EF6D3B0F8FCB9D224AA228FF1 /* VEGUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A3FFFD564771846EE0A3E9626904 /* VEGUtils-dummy.m */; };
 		9EF673C678255565179DC151840A98D0 /* Pods-VEGUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5694CFD02B1093CCA819B29EE9FDC2E0 /* Pods-VEGUtils_Tests-dummy.m */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
 		A8CDB1DB349319B31D8D1190A07E217F /* Pods-VEGUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BDED5C52458A9202B0D178B1140BE5 /* Pods-VEGUtils_Example-dummy.m */; };
-		A8F26FA80CC506F75B06E9013A928217 /* CPSMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B0C183A0BB64F1AAB855FF1C535F7B /* CPSMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB11D14813E35F300818D6C033743332 /* VEGUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9744DA05B2C428C0E4C3A43D2D0E9150 /* VEGUtils-dummy.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		B884D8E531C87E6271D8DF7994032E56 /* CPSMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = B043100C2873A5B2F458AA6243C53430 /* CPSMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3CE391F4FBA507EE1510E645304AB73 /* CodeSignature in Sources */ = {isa = PBXBuildFile; fileRef = 10BBBBEAFDDEC494F75B24E12A1C10A5 /* CodeSignature */; };
+		B82D1656E508245C2DB8922AB6B2667A /* VEGDevopmentKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 692982F364C9F6D11BC08BA28E679006 /* VEGDevopmentKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C75C90093E2DC8EB82F5A4728F971B45 /* VEGDevopmentKit in Sources */ = {isa = PBXBuildFile; fileRef = E795A9C43B418F67B0B49D92A1999DA8 /* VEGDevopmentKit */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D0EF0A8F0A827B7BFAB7644BDA771630 /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = 187F1284D4E61CFC35CE5BFB280D7671 /* CodeResources */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
-		E2E710976CCFD643F13C80C215A39B88 /* VEGDevopmentKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B2A53CD57718DFCAD22E22AE164A7D36 /* VEGDevopmentKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
-		EB2BB6321382BEABFC24788FFC62942A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		ED32055872CC47EA5EDBA85F11F8A697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -77,11 +68,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		037244DC565711AEC05E5C3BB1BD7CD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		10BBBBEAFDDEC494F75B24E12A1C10A5 /* CodeSignature */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = CodeSignature; sourceTree = "<group>"; };
-		154F03D29CED877ED43A53C3495C6F28 /* Pods_VEGUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VEGUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		187F1284D4E61CFC35CE5BFB280D7671 /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = CodeResources; sourceTree = "<group>"; };
-		1AB10D568E17C2E49DAC73D95D923045 /* VEGUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VEGUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		154F03D29CED877ED43A53C3495C6F28 /* Pods_VEGUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VEGUtils_Tests.framework; path = "Pods-VEGUtils_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB10D568E17C2E49DAC73D95D923045 /* VEGUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VEGUtils.framework; path = VEGUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1DD8EEC74B70A633AFBC3ECDFD17D5CB /* Pods-VEGUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VEGUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
@@ -92,72 +82,64 @@
 		3F769C2AB3270C72B8E5553EDD74296D /* Pods-VEGUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VEGUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3FF27A2D3EBA3FEABA4A5058E44B4BE2 /* Pods-VEGUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VEGUtils_Example-umbrella.h"; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		4659BE479AEF115EC9BDC4C69ADEFD43 /* VEGUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VEGUtils.release.xcconfig; sourceTree = "<group>"; };
 		4879734B22EBE7F616770FEBFC6DCDC6 /* Pods-VEGUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VEGUtils_Example.modulemap"; sourceTree = "<group>"; };
+		49A6A3FFFD564771846EE0A3E9626904 /* VEGUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VEGUtils-dummy.m"; sourceTree = "<group>"; };
 		4A7B77C00482A358DDABBEE7CE6A328A /* Pods-VEGUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VEGUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		4CFBAA4CB0D037C500D87361857FA1BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55EA977DA3CBE4D52F13451F406BCA39 /* VEGDevopmentKit */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = VEGDevopmentKit; sourceTree = "<group>"; };
 		5694CFD02B1093CCA819B29EE9FDC2E0 /* Pods-VEGUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VEGUtils_Tests-dummy.m"; sourceTree = "<group>"; };
 		59F315B0B45D378B4117BF3E1E9CE982 /* Pods-VEGUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VEGUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		63E0909B4826ECACE3C0B43865795C0B /* VEGDevopmentKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VEGDevopmentKit.framework; path = VEGUtils/Classes/VEGDevopmentKit.framework; sourceTree = "<group>"; };
+		6140CCB22B1939CD2EA1B4C8E0616238 /* VEGUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VEGUtils.modulemap; sourceTree = "<group>"; };
+		63777945457FE2D9E57B74DE65ED5933 /* VEGUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VEGUtils-umbrella.h"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		69C441889D5BE0A8BBFA6BB88F9BF56A /* UIButton+Clicked.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Clicked.h"; path = "VEGUtils/Classes/UIButton+Clicked.h"; sourceTree = "<group>"; };
+		692982F364C9F6D11BC08BA28E679006 /* VEGDevopmentKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VEGDevopmentKit.h; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		732DC0C2EE0E80EEF7D3FEAFCCDD7558 /* Pods-VEGUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VEGUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		75FC338A896D16595C439B93139F703D /* Pods-VEGUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VEGUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7C63DB90D62647B018E27BD32F8ED315 /* UIButton+Clicked.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Clicked.m"; path = "VEGUtils/Classes/UIButton+Clicked.m"; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		87648C723FE7BE4AD8A8F950881AF44F /* CodeRequirements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = CodeRequirements; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		925C178930511519031019249DCDC6F6 /* Pods_VEGUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VEGUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		925C178930511519031019249DCDC6F6 /* Pods_VEGUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VEGUtils_Example.framework; path = "Pods-VEGUtils_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		96BAC2DE64F0EC9FAE96AA16C508BEC4 /* Pods-VEGUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VEGUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		9744DA05B2C428C0E4C3A43D2D0E9150 /* VEGUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VEGUtils-dummy.m"; sourceTree = "<group>"; };
-		97529731322977A88E7A39654067F5E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9BB208754381E8BC19CD72CC14A7D4FB /* Pods-VEGUtils_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VEGUtils_Example-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2560180C09F9B63D315644EBC7C6D87 /* Pods-VEGUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VEGUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A26F8DDC185D6B4CBCFED4730AB8C5D3 /* Pods-VEGUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VEGUtils_Tests.modulemap"; sourceTree = "<group>"; };
-		AC862B54BC39B3D4B3B669CF488C77C2 /* VEGUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VEGUtils-prefix.pch"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		B043100C2873A5B2F458AA6243C53430 /* CPSMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CPSMacro.h; sourceTree = "<group>"; };
 		B0796253B7D37B2C1AF7D1A2E53B31E7 /* Pods-VEGUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VEGUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B2A53CD57718DFCAD22E22AE164A7D36 /* VEGDevopmentKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VEGDevopmentKit.h; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		B75A1D8FA88449CC86B354CD7E4CB6D1 /* VEGUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VEGUtils.debug.xcconfig; sourceTree = "<group>"; };
-		BD395E0ECBFB2D637E002B4737EE4A84 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		B8375F44B7323ED5A4F553BE26D2DECA /* VEGUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VEGUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C423E987C1B68ADB97138A38AAAA4F33 /* VEGUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VEGUtils-Info.plist"; sourceTree = "<group>"; };
+		C4E164DF594E9A3F8FB83CE1D059126C /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CD5FEF853BEEBDB167EF4B77E321B8E3 /* VEGUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VEGUtils.release.xcconfig; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		D6F07F4F5149A1AADE347EB4EF24C8CA /* CodeDirectory */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = CodeDirectory; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		DC01E2B5203B7E942325EE36081A445A /* CPSMacro.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CPSMacro.m; path = VEGUtils/Classes/CPSMacro.m; sourceTree = "<group>"; };
-		DDF6D5AD7BA98010FE6054AF0E8C6721 /* VEGUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VEGUtils.modulemap; sourceTree = "<group>"; };
-		DFB4122159C4B730536E699D98FB2F1D /* VEGUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VEGUtils-Info.plist"; sourceTree = "<group>"; };
-		E11BDE056082C63216EF049BA3C48DEB /* VEGUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VEGUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DAE279CEEB0CBB89DF943134C0265DBB /* VEGUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VEGUtils-prefix.pch"; sourceTree = "<group>"; };
+		DB9E3104481E219A21BB48277D14575D /* CPSMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CPSMacro.h; sourceTree = "<group>"; };
 		E6BDED5C52458A9202B0D178B1140BE5 /* Pods-VEGUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VEGUtils_Example-dummy.m"; sourceTree = "<group>"; };
+		E795A9C43B418F67B0B49D92A1999DA8 /* VEGDevopmentKit */ = {isa = PBXFileReference; includeInIndex = 1; name = VEGDevopmentKit; path = VEGUtils/Classes/VEGDevopmentKit.framework/VEGDevopmentKit; sourceTree = "<group>"; };
+		EB535D6C4802A894747206DF273E298C /* VEGUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VEGUtils.debug.xcconfig; sourceTree = "<group>"; };
+		F29001683A40BAD95963406DFF7CB709 /* VEGDevopmentKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VEGDevopmentKit.framework; path = VEGUtils/Classes/VEGDevopmentKit.framework; sourceTree = "<group>"; };
 		F3398257A0987B0764DF65DFE17E2B64 /* Pods-VEGUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VEGUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F5A4A9A636EA78AA385EB0B94C83329C /* VEGUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VEGUtils-umbrella.h"; sourceTree = "<group>"; };
-		F5B0C183A0BB64F1AAB855FF1C535F7B /* CPSMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CPSMacro.h; path = VEGUtils/Classes/CPSMacro.h; sourceTree = "<group>"; };
 		F6BECAEBFF3BBA4016F707FD724B04FD /* Pods-VEGUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VEGUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FA397D63A45A1B69E7631EF5656BAF06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F946556F689C45FAE75F24393F9AA689 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A5731ECF8E3E55343B5D921DED307045 /* Frameworks */ = {
+		81E905AAE679DD32E746BFC8A6CCE7CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB2BB6321382BEABFC24788FFC62942A /* Foundation.framework in Frameworks */,
+				ED32055872CC47EA5EDBA85F11F8A697 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,29 +173,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		153B72429580E08C44FE83ED5ECFA255 /* Development Pods */ = {
+		1488FD814AF16525748A05F025A2F8E6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				78A0893AA65AC37F0F2C068D8D3A3270 /* VEGUtils */,
+				6140CCB22B1939CD2EA1B4C8E0616238 /* VEGUtils.modulemap */,
+				49A6A3FFFD564771846EE0A3E9626904 /* VEGUtils-dummy.m */,
+				C423E987C1B68ADB97138A38AAAA4F33 /* VEGUtils-Info.plist */,
+				DAE279CEEB0CBB89DF943134C0265DBB /* VEGUtils-prefix.pch */,
+				63777945457FE2D9E57B74DE65ED5933 /* VEGUtils-umbrella.h */,
+				EB535D6C4802A894747206DF273E298C /* VEGUtils.debug.xcconfig */,
+				CD5FEF853BEEBDB167EF4B77E321B8E3 /* VEGUtils.release.xcconfig */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		1D91F4AB29A6648A7421A5DEC771B795 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				B043100C2873A5B2F458AA6243C53430 /* CPSMacro.h */,
-				B2A53CD57718DFCAD22E22AE164A7D36 /* VEGDevopmentKit.h */,
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
-		22672574D567A7626A80DEF14616D17C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				63E0909B4826ECACE3C0B43865795C0B /* VEGDevopmentKit.framework */,
-			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VEGUtils";
 			sourceTree = "<group>";
 		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
@@ -246,30 +218,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6B88E2CA9205C4CFCADF7A37D6038090 /* Pod */ = {
+		5FA014E03400941FF9F2E336E4FDBC50 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				97529731322977A88E7A39654067F5E6 /* LICENSE */,
-				FA397D63A45A1B69E7631EF5656BAF06 /* README.md */,
-				E11BDE056082C63216EF049BA3C48DEB /* VEGUtils.podspec */,
+				F946556F689C45FAE75F24393F9AA689 /* LICENSE */,
+				037244DC565711AEC05E5C3BB1BD7CD1 /* README.md */,
+				B8375F44B7323ED5A4F553BE26D2DECA /* VEGUtils.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		78A0893AA65AC37F0F2C068D8D3A3270 /* VEGUtils */ = {
-			isa = PBXGroup;
-			children = (
-				F5B0C183A0BB64F1AAB855FF1C535F7B /* CPSMacro.h */,
-				DC01E2B5203B7E942325EE36081A445A /* CPSMacro.m */,
-				69C441889D5BE0A8BBFA6BB88F9BF56A /* UIButton+Clicked.h */,
-				7C63DB90D62647B018E27BD32F8ED315 /* UIButton+Clicked.m */,
-				22672574D567A7626A80DEF14616D17C /* Frameworks */,
-				6B88E2CA9205C4CFCADF7A37D6038090 /* Pod */,
-				F6FEF27E9A98A05EED951F0E6DB1EC60 /* Support Files */,
-				E1D2A1A342919D53C63DADE0C86CA343 /* VEGDevopmentKit.framework */,
-			);
-			name = VEGUtils;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
@@ -281,6 +237,20 @@
 				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		847087E2BA247FF095FAC445D2D17AD4 /* VEGUtils */ = {
+			isa = PBXGroup;
+			children = (
+				E795A9C43B418F67B0B49D92A1999DA8 /* VEGDevopmentKit */,
+				A513F29D3D3621022EACFD8AC958B2BB /* Frameworks */,
+				C3A4AEEB9D8ABFF8F8A286E1C1B7C9C7 /* Headers */,
+				AA9E6E0903CD37AC62DFAF7FEA0FBFD4 /* Modules */,
+				5FA014E03400941FF9F2E336E4FDBC50 /* Pod */,
+				1488FD814AF16525748A05F025A2F8E6 /* Support Files */,
+			);
+			name = VEGUtils;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
@@ -306,6 +276,23 @@
 			);
 			name = "Pods-VEGUtils_Tests";
 			path = "Target Support Files/Pods-VEGUtils_Tests";
+			sourceTree = "<group>";
+		};
+		A513F29D3D3621022EACFD8AC958B2BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F29001683A40BAD95963406DFF7CB709 /* VEGDevopmentKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA9E6E0903CD37AC62DFAF7FEA0FBFD4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C4E164DF594E9A3F8FB83CE1D059126C /* module.modulemap */,
+			);
+			name = Modules;
+			path = VEGUtils/Classes/VEGDevopmentKit.framework/Modules;
 			sourceTree = "<group>";
 		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
@@ -338,7 +325,26 @@
 				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
 				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		C3A4AEEB9D8ABFF8F8A286E1C1B7C9C7 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				DB9E3104481E219A21BB48277D14575D /* CPSMacro.h */,
+				692982F364C9F6D11BC08BA28E679006 /* VEGDevopmentKit.h */,
+			);
+			name = Headers;
+			path = VEGUtils/Classes/VEGDevopmentKit.framework/Headers;
+			sourceTree = "<group>";
+		};
+		C77B913C2AECFC33D753533A8D495281 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				847087E2BA247FF095FAC445D2D17AD4 /* VEGUtils */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CC88F9AECCFA62003CB9C403211FF7AC /* Pods-VEGUtils_Example */ = {
@@ -362,7 +368,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				153B72429580E08C44FE83ED5ECFA255 /* Development Pods */,
+				C77B913C2AECFC33D753533A8D495281 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				DD53BF3D07A37E4CA5D34FC073227B47 /* Products */,
@@ -381,59 +387,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E1D2A1A342919D53C63DADE0C86CA343 /* VEGDevopmentKit.framework */ = {
-			isa = PBXGroup;
-			children = (
-				4CFBAA4CB0D037C500D87361857FA1BA /* Info.plist */,
-				55EA977DA3CBE4D52F13451F406BCA39 /* VEGDevopmentKit */,
-				E3420DA677868E82B0117C8604FFFC77 /* _CodeSignature */,
-				1D91F4AB29A6648A7421A5DEC771B795 /* Headers */,
-				E380F85F9246E5B1CAA7F8BCD4AC2E73 /* Modules */,
-			);
-			name = VEGDevopmentKit.framework;
-			path = VEGUtils/Classes/VEGDevopmentKit.framework;
-			sourceTree = "<group>";
-		};
-		E3420DA677868E82B0117C8604FFFC77 /* _CodeSignature */ = {
-			isa = PBXGroup;
-			children = (
-				D6F07F4F5149A1AADE347EB4EF24C8CA /* CodeDirectory */,
-				87648C723FE7BE4AD8A8F950881AF44F /* CodeRequirements */,
-				187F1284D4E61CFC35CE5BFB280D7671 /* CodeResources */,
-				10BBBBEAFDDEC494F75B24E12A1C10A5 /* CodeSignature */,
-			);
-			path = _CodeSignature;
-			sourceTree = "<group>";
-		};
-		E380F85F9246E5B1CAA7F8BCD4AC2E73 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				BD395E0ECBFB2D637E002B4737EE4A84 /* module.modulemap */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		F6FEF27E9A98A05EED951F0E6DB1EC60 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DDF6D5AD7BA98010FE6054AF0E8C6721 /* VEGUtils.modulemap */,
-				9744DA05B2C428C0E4C3A43D2D0E9150 /* VEGUtils-dummy.m */,
-				DFB4122159C4B730536E699D98FB2F1D /* VEGUtils-Info.plist */,
-				AC862B54BC39B3D4B3B669CF488C77C2 /* VEGUtils-prefix.pch */,
-				F5A4A9A636EA78AA385EB0B94C83329C /* VEGUtils-umbrella.h */,
-				B75A1D8FA88449CC86B354CD7E4CB6D1 /* VEGUtils.debug.xcconfig */,
-				4659BE479AEF115EC9BDC4C69ADEFD43 /* VEGUtils.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/VEGUtils";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -462,6 +421,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5D6DB23712C8B6271C9546B76D80974D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9AD88900CF0DC1E700EC34AFFB9B02 /* CPSMacro.h in Headers */,
+				B82D1656E508245C2DB8922AB6B2667A /* VEGDevopmentKit.h in Headers */,
+				4E6A4CD0A1EE04D0D728E154E5CC4623 /* VEGUtils-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E8E39ABBE10B7D7D43DA68A70EB0F193 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -470,29 +439,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBBB71C86F23801D0CC45BD47A1E36E6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A8F26FA80CC506F75B06E9013A928217 /* CPSMacro.h in Headers */,
-				B884D8E531C87E6271D8DF7994032E56 /* CPSMacro.h in Headers */,
-				7DC04F681816D096043C175CEF27430C /* UIButton+Clicked.h in Headers */,
-				E2E710976CCFD643F13C80C215A39B88 /* VEGDevopmentKit.h in Headers */,
-				67D78C206C94110B5AA3874C535BE849 /* VEGUtils-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		107B2B33E9571B77E21588A5A370EB92 /* VEGUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C7EE8FAF1988B37C27C2D92FB40A310 /* Build configuration list for PBXNativeTarget "VEGUtils" */;
+			buildConfigurationList = 0A19C2C5B4CA07AF00FD5862307F1BB0 /* Build configuration list for PBXNativeTarget "VEGUtils" */;
 			buildPhases = (
-				EBBB71C86F23801D0CC45BD47A1E36E6 /* Headers */,
-				483F1D8530E07FBA4DE2D23067F4926D /* Sources */,
-				A5731ECF8E3E55343B5D921DED307045 /* Frameworks */,
-				C36A4A4AF396CCAF6FD6FA52F6CFD9D8 /* Resources */,
+				5D6DB23712C8B6271C9546B76D80974D /* Headers */,
+				BD8F312427C2A150B23477A7BD7D0D80 /* Sources */,
+				81E905AAE679DD32E746BFC8A6CCE7CD /* Frameworks */,
+				40F7BF6A2992FA8B50D019009B781195 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -591,6 +548,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		40F7BF6A2992FA8B50D019009B781195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -612,13 +576,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C36A4A4AF396CCAF6FD6FA52F6CFD9D8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -627,23 +584,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EF673C678255565179DC151840A98D0 /* Pods-VEGUtils_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		483F1D8530E07FBA4DE2D23067F4926D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EE86EC232E9ED206CDFF07046D6B8EB /* CodeDirectory in Sources */,
-				9DBF4A99176CA515C2F5FD37E32DC6CB /* CodeRequirements in Sources */,
-				D0EF0A8F0A827B7BFAB7644BDA771630 /* CodeResources in Sources */,
-				C3CE391F4FBA507EE1510E645304AB73 /* CodeSignature in Sources */,
-				2280C7CD139322C5CC6CF12A957BEC09 /* CPSMacro.m in Sources */,
-				7912B82FCAE52CAF9466285925FF20B6 /* Info.plist in Sources */,
-				31572CD378B9F2E44DD4C5FC287762B3 /* module.modulemap in Sources */,
-				11CCCC19F6A765C5FE155A553AC89C2D /* UIButton+Clicked.m in Sources */,
-				5FCF33CCB3F5D06657197247C110D336 /* VEGDevopmentKit in Sources */,
-				AB11D14813E35F300818D6C033743332 /* VEGUtils-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,6 +608,16 @@
 				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
 				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
 				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8F312427C2A150B23477A7BD7D0D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5089A73B35F551B1E2AEFA294EE2F8D6 /* module.modulemap in Sources */,
+				C75C90093E2DC8EB82F5A4728F971B45 /* VEGDevopmentKit in Sources */,
+				9EC4084EF6D3B0F8FCB9D224AA228FF1 /* VEGUtils-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -729,37 +679,6 @@
 			};
 			name = Release;
 		};
-		2964A08CB886E28F88A570AF25DC47B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B75A1D8FA88449CC86B354CD7E4CB6D1 /* VEGUtils.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VEGUtils/VEGUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VEGUtils/VEGUtils-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VEGUtils/VEGUtils.modulemap";
-				PRODUCT_MODULE_NAME = VEGUtils;
-				PRODUCT_NAME = VEGUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		34D3D3C67992F09CE47C4A43406AF307 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 732DC0C2EE0E80EEF7D3FEAFCCDD7558 /* Pods-VEGUtils_Tests.release.xcconfig */;
@@ -810,7 +729,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
@@ -911,7 +830,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -981,9 +901,9 @@
 			};
 			name = Debug;
 		};
-		B9BBED322C63D8FA98404A0EC491F040 /* Release */ = {
+		9649B858C915974F6C6DE882BC65EDA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4659BE479AEF115EC9BDC4C69ADEFD43 /* VEGUtils.release.xcconfig */;
+			baseConfigurationReference = EB535D6C4802A894747206DF273E298C /* VEGUtils.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -997,7 +917,38 @@
 				GCC_PREFIX_HEADER = "Target Support Files/VEGUtils/VEGUtils-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/VEGUtils/VEGUtils-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VEGUtils/VEGUtils.modulemap";
+				PRODUCT_MODULE_NAME = VEGUtils;
+				PRODUCT_NAME = VEGUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98FD44529A0E66800A5C82451E459A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD5FEF853BEEBDB167EF4B77E321B8E3 /* VEGUtils.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VEGUtils/VEGUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VEGUtils/VEGUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/VEGUtils/VEGUtils.modulemap";
 				PRODUCT_MODULE_NAME = VEGUtils;
@@ -1029,7 +980,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
@@ -1081,11 +1032,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C7EE8FAF1988B37C27C2D92FB40A310 /* Build configuration list for PBXNativeTarget "VEGUtils" */ = {
+		0A19C2C5B4CA07AF00FD5862307F1BB0 /* Build configuration list for PBXNativeTarget "VEGUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2964A08CB886E28F88A570AF25DC47B1 /* Debug */,
-				B9BBED322C63D8FA98404A0EC491F040 /* Release */,
+				9649B858C915974F6C6DE882BC65EDA1 /* Debug */,
+				98FD44529A0E66800A5C82451E459A82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
