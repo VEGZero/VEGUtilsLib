@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17257ECF50E05DCA748CDDD7 /* VEGUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VEGUtils.podspec; path = ../VEGUtils.podspec; sourceTree = "<group>"; };
+		17257ECF50E05DCA748CDDD7 /* VEGUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VEGUtils.podspec; path = ../VEGUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		36F4BF4C09F3952A43D0B3DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3EA5F3609166F894580655FA /* Pods-VEGUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VEGUtils_Tests.release.xcconfig"; path = "Target Support Files/Pods-VEGUtils_Tests/Pods-VEGUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		49711DE672E2118B42790F5E /* Pods_VEGUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VEGUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
